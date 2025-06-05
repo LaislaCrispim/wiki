@@ -1,6 +1,6 @@
 # 📚 Wiki Interna da Empresa
 
-![status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)  
+![status](https://img.shields.io/badge/status-EM%20DESENVOLVIMENTO-yellow)  
 ![license](https://img.shields.io/badge/licença-MIT-green)  
 ![tecnologias](https://img.shields.io/badge/Tecnologias-ReactJS%20|%20TailwindCSS%20|%20NodeJS%20|%20Express%20|%20MongoDB%20|%20PostgreSQL%20|%20Socket.io%20|%20Firebase%20|%20AWS_S3%20|%20Docker%20|%20JWT-blue)
 
