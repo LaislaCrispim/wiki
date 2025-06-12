@@ -1,0 +1,234 @@
+.inicio-container {
+  display: flex;
+  padding: 20px;
+  background-color: #a7f68a;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.menu-lateral {
+  width: 180px;
+  background-color: #fff;
+  color: #026c06;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(65, 173, 7);
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-lateral li {
+  margin: 15px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.conteudo-principal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campo-postagem {
+  background-color: #1a8d0989;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(41, 202, 13, 0.985);
+  width: 100%;
+  max-width: 600px;
+}
+
+.campo-postagem textarea {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #046702;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+  font-size: 14px;
+}
+
+.botoes {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.botoes input[type="file"] {
+  font-size: 14px;
+}
+
+.botoes button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #19d222;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.botoes .criar-enquete {
+  background-color: #17b91c;
+}
+
+.feed-postagens {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.postagem {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(25, 207, 5);
+  width: 100%;
+  max-width: 600px;
+}
+
+.postagem-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postagem p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.postagem-imagem {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.pendente {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #c20f0f;
+}
+
+.like-section {
+  margin-top: 10px;
+}
+
+.like-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+.like-button:hover {
+  transform: scale(1.1);
+}
+
+.modal-enquete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-conteudo {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-conteudo input[type="text"],
+.modal-conteudo input[type="file"] {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #19d008;
+}
+.modal-enquete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-conteudo {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.enquete-pergunta {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.enquete-opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.opcao-enquete {
+  padding: 8px 12px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.opcao-enquete.selecionado {
+  background-color: #d1ffcc;
+  border-color: #068012;
+  font-weight: bold;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.autor-foto {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.autor-nome {
+  font-weight: bold;
+}
